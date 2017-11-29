@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	
+  	<% if(name){ %>
+  		<p>欢迎：<%= name %></p>
+  		<hr>
+  		<br>
+		<input type="submit" value = "注销" onclick="location.href = '/logout'">
+    	<br><br>
+  		<button onclick="location.href ='/comm'">评论</button>
+    	<button onclick="location.href ='/showcomm'">查看评论</button>
+  	<% }else{ %>
+	  	<button onclick="location.href ='/login'">登录</button>
+	    <button onclick="location.href ='/registor'">注册</button>
+  	<% }%>
+    
+    
+
+  </body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/regeistor.css' />
+    
+    <script type="text/javascript" src = "/javascripts/jquery.js"></script>
+    <script type="text/javascript" src = "/javascripts/registor.js"></script>
+
+  </head>
+  <body>
+    <div id = "boxshell">
+	    <div class="logo">
+	    	<img src="/images/login_logo.png">
+			<span>注册</span>
+		</div>
+		<form action="/users/registor" method = "get" id = "registor">
+			<input type="text" placeholder="请输入您的手机号码" class="phonenum" name = "phonenum">
+			<p class="phonenum"></p>
+			<input type="text" name="" placeholder="请输入验证码"  class="code"><span class="createCode"></span><p class="code"></p>
+			<input type="text" name="username" placeholder="起一个具有辨识度的用户名" class="username"><p class="username"></p>
+			<input type="password" name="password" placeholder="请输入8-16位密码，需要包含字母以及数字" class="password"><p class="password"></p>
+			<input class="btn" type="submit" value="注册">
+			<div class = "footer"><p>已有穷游帐号?<a href="login">登录</a></p>
+			<p>同意<a href="#">会员条款</a>和<a href="#">登录免责声明</a></p>   </div>
+		</form>
+    </div>
+    <ul id = "last">
+		<li>
+			<span>关于我们</span>
+			<span><a href="">穷游简介</a></span>
+			<span><a href="">联系我们</a></span>
+			<span><a href="">合作伙伴</a></span>
+		</li>
+		<li>
+			<span>加入穷游</span>
+			<span><a href="">招聘职位</a></span>
+		</li>
+		<li>
+			<span>网站条款</span>
+			<span><a href="">会员条款</a></span>
+			<span><a href="">社区指南</a></span>
+			<span><a href="">版权声明</a></span>
+			<span><a href="">免责声明</a></span>
+		</li>
+		<li>
+			<span>帮助中心</span>
+			<span><a href="">新手上路</a></span>
+			<span><a href="">使用帮助</a></span>
+			<span><a href="">网站地图</a></span>
+		</li>
+		<li>
+			<span>关注我们</span>
+			<a href=""><img src="/images/1.png"></a>
+			<a href=""><img src="/images/2.png"></a>
+			<a href=""><img src="/images/3.png"></a>
+			<a href=""><img src="/images/4.png"></a>
+			<a href=""><img src="/images/5.png"></a>
+			<a href=""><img src="/images/6.png"></a>
+		</li>
+		<li>
+			<img src="/images/apple.png">
+		</li>
+	</ul>
+	<div id = "page_bottom">
+			<img src="/images/login_logo.png" alt="">
+			<p><span>2004-2017 © 穷游网™ qyer.com All rights reserved.  京ICP备12003524号  京公网安备11010502023470</span><span>穷游网为旅行者提供原创实用的出境游旅行指南和旅游攻略、旅行社区和问答交流平台，并提供签证、保险、机票、酒店预订、租车等服务。</span></p>
+	</div>
+  </body>
+</html>

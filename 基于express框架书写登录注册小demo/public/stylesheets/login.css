@@ -1,0 +1,26 @@
+#login .login_header{
+	width:304px;
+	margin:0 auto;
+	display:flex;
+}
+body{
+background: #363636;
+}
+#login .login_header a{
+	
+	display: inline-block;
+	width:50%;
+	font-size: 18px;
+	font-style: normal;
+	text-align: center;
+	line-height: 40px;
+	color:#999;
+	text-decoration: none;
+}
+#login .login_header a:first-of-type{
+	color:#3f9f5f;
+	border-bottom: 2px solid #3f9f5f;
+}
+#last{
+	margin-top:40px;
+}

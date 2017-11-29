@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+background: #363636;
+}
+#boxshell{
+	height: 500px;
+	width:100%;
+	padding:40px 0px 130px 0px; 
+	background:url(//ssr.qyerstatic.com/fe_ssr_passport/static/web_login_bg.ecb39528.jpg) top/cover no-repeat;
+}
+#boxshell .logo{
+	width:215px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+#boxshell img{
+	height: 50px;
+	width: auto;
+	display: inline-block;
+	float: left;
+}
+#boxshell span{
+	font-size: 27px;
+	margin-top: 11px;
+	display: inline-block;
+	color: #fff;
+}
+#boxshell form{
+	width: 360px;
+	margin: 0 auto;
+	background: hsla(0,0%,100%,.95);
+	padding: 50px 0px 15px 0px;
+}
+#boxshell form p{
+	line-height: 30px;
+	font-size: 12px;
+	color: red;
+	width:30px;
+	width: 300px;
+	margin: 0 auto;
+}
+#boxshell form input{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+	height:40px;
+	margin-bottom: 30px;
+	text-indent: 15px;
+	font-size: 12px;
+	color: #ccc;
+}
+#boxshell form .btn{
+	background: #3f9f5f;
+	color: #fff;
+}
+#boxshell form .code{
+	width:200px;
+	margin-left:30px;
+
+}
+#boxshell form span{
+	display: inline-block;
+	width: 80px;
+	height: 40px;
+	margin-left: 250px;
+	float: left;
+	margin-top:-73px;
+	background: #fff;
+	font-size: 14px;
+	color: #fff;
+	line-height: 40px;
+	letter-spacing: 5px;
+	text-align: center;
+	background: url(/images/bg.jpg) repeat left;
+}
+#boxshell .footer{
+	margin-top:15px;
+	margin-left: 21px;
+	width: 326px;
+	display: flex;
+	justify-content: space-between;
+}
+#boxshell .footer p{
+	font-size: 11px;color: #666;
+}
+#boxshell .footer p a{
+	font-size: 11px;
+	color:#3f9f5f;
+	text-decoration: none;
+}
+#boxshell .footer p a:hover{
+	text-decoration: underline;
+}
+		#last{
+			width: 100%;
+			margin: 0 auto;
+			display: flex;
+			background: #363636;
+
+		}
+		#last li{
+			list-style: none;
+			width: 80px;
+			margin: 50px 50px 30px 50px;
+
+		}
+		#last li:first-of-type{
+			margin-left: 150px;
+		}
+		#last li span{
+			width:100%;
+			display: block;
+			color: #c2c2c2;
+			font-size: 12px;
+			text-align: center;
+		}
+		#last li a{
+			text-decoration: none;
+			font-size: 16px;
+			line-height: 20px;
+			color:#959595;
+			font-size: 12px;
+		}
+		#last li a:hover{
+			text-decoration: underline;
+		}
+		#last li a img{
+			width:20px;
+			height: 20px;
+			margin-top: 20px;
+		}
+		#page_bottom{
+			width: 100%;
+			overflow: hidden;
+			width: 950px;
+			margin: 0 auto;
+			padding-bottom: 40px;
+		}
+		#page_bottom img{
+			width:150px;
+			height: auto;
+			float: left;
+		}
+		#page_bottom p span{
+			font-size: 12px;
+			display: block;color: #959595;
+		}
+		#page_bottom p{
+			float: left;
+			padding-top: 15px;
+		}

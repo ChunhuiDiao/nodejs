@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <style type="text/css">
+  table{
+  	width:1000px;
+  	margin: 0 auto;
+  	text-align: center;
+  	margin-top: 50px;
+  }
+  h2{
+  	width:1000px;
+  	/* margin: 0 auto; */
+  	text-align: center;
+  	margin-top: 50px;
+  }
+	table tr td{
+		display: inline-block;
+		width:100px;
+		margin: 10px;
+		text-align: left;
+	}
+	table tr td:last-of-type{
+		width:350px;
+	}
+	table tr td:nth-of-type(3){
+		width:200px;
+	}
+  </style>
+  <body>
+    <h2>评论内容</h2>
+    <table>	
+    	<tr>
+    		<td>序号</td>
+    		<td>评论人</td>
+    		<td>标题</td>
+    		<td>内容</td>
+    	</tr>
+  <!--通过for循环来实现倒叙输出，后评论的先显示-->
+	<% for(var i = data.length - 1;i > 0; i--){ %>
+
+      <tr>
+        <td><%= data.length - i %></td>
+        <td><%= data[i].username %></td>
+        <td><%= data[i].title %></td>
+        <td><%= data[i].count %></td>
+      </tr>
+    <% } %>
+		
+    </table>
+
+  </body>
+</html>
